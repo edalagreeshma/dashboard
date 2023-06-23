@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Sidebar from './components/sidebar';
-import Dashboard from './components/dashboard';
-import Product from './components/product';
+import Sidebar from './components/Sidebar';
+import Dashboard from './components/Dashboard';
+import Product from './components/Product';
 import './App.css';
 
 const App = () => {

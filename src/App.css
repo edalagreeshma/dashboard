@@ -1,84 +1,55 @@
-/* app.css */
-
-/* Overall layout */
-.App {
+.app {
   display: flex;
 }
 
-/* Sidebar */
 .sidebar {
-  height: 100vh;
   width: 200px;
-  background-color: #f0f0f0;
-  padding: 20px;
+  background-color: #f3aaaa;
 }
 
-.sidebar .logo-details {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  text-align: left;
+  background-color: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.sidebar .logo-details i {
-  font-size: 1.5rem;
-  color: #333;
-  margin-right: 5px;
+.sidebar button:hover {
+  background-color: #bcc1b5;
 }
 
-.sidebar .logo-details .logo_name {
-  font-size: 1.5rem;
-  color: #333;
+.sidebar button.active {
+  background-color: #56d25a;
+  color: white;
 }
 
-.sidebar .nav-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar .nav-links li {
-  margin-bottom: 10px;
-}
-
-.sidebar .nav-links a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #333;
-}
-
-.sidebar .nav-links a.active {
-  color: #fff;
-  background-color: #333;
-  padding: 8px;
-  border-radius: 5px;
-}
-
-.sidebar .nav-links a i {
-  font-size: 1.2rem;
-  margin-right: 10px;
-}
-
-.sidebar .nav-links .links_name {
-  font-size: 0.9rem;
-}
-
-/* Content area */
 .content {
   flex: 1;
   padding: 20px;
+  background-color: #fff;
 }
 
-/* Dashboard */
-.dashboard {
-  background-color: #ffffff;
-  padding: 20px;
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  width: 200px;
+  margin-right: 20px;
   margin-bottom: 20px;
 }
 
-/* Product */
-.product {
-  background-color: #ffffff;
-  padding: 20px;
-  margin-bottom: 20px;
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.product-item h3 {
+  margin-top: 10px;
+  font-size: 16px;
 }

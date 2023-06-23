@@ -36,30 +36,30 @@ const Dashboard = () => {
           Total Users
         </button>
       </div>
-      {/* Render different content based on activeTab */}
+
       {activeTab === 'dashboard' && (
         <div>
-          {/* Content for Dashboard */}
+          
         </div>
       )}
       {activeTab === 'product' && (
         <div>
-          {/* Content for Product */}
+          
         </div>
       )}
       {activeTab === 'users' && (
         <div>
-          {/* Content for Users */}
+          
         </div>
       )}
       {activeTab === 'rating' && (
         <div>
-          {/* Content for Rating */}
+          
         </div>
       )}
       {activeTab === 'totalUsers' && (
         <div>
-          {/* Content for Total Users */}
+          
         </div>
       )}
     </div>

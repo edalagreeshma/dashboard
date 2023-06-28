@@ -4,11 +4,11 @@
 
 .sidebar {
   width: 200px;
-  background-color: #f3aaaa;
+  background-color: #dfdada;
 }
 
 .sidebar button {
-  display: block;
+  display: flex;
   width: 100%;
   padding: 12px;
   border: none;
@@ -19,37 +19,97 @@
 }
 
 .sidebar button:hover {
-  background-color: #bcc1b5;
+  background-color: #c21ea1;
 }
 
 .sidebar button.active {
-  background-color: #56d25a;
-  color: white;
+  background-color: #f4f4fa;
+  color: rgb(231, 237, 232);
 }
 
 .content {
-  flex: 1;
+  flex: 10;
   padding: 20px;
-  background-color: #fff;
+  background-color: #9bc0eb;
 }
+.dashboard {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard .sidenav button {
+  margin-bottom: 200px;
+}
+.dashboard .sidenav {
+  justify-content: flex-start; 
+}
+
+.dashboard .sidenav button {
+  margin-bottom: 200px;
+  flex-basis: 200px;
+  
+}
+.dashboard .sidenav {
+  display: flex;
+   
+  justify-content: flex-start;
+}
+
+.dashboard .sidenav button {
+  margin-right: 10px; 
+  margin-bottom: 200px;
+  flex: 1; 
+  flex-basis: 200px;
+}
+
+.button-container {
+  display: flex; 
+  justify-content: flex-start; 
+  display:inline-block;
+  margin-left: 20px;
+  width: 30vw;
+
+}
+
+.button-container button {
+  margin-right: 10px; 
+  display:inline-block;
+  width: 50vw;
+  
+}
+
 
 .product-container {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .product-item {
   width: 200px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .product-item img {
   width: 100%;
   height: auto;
+  display: flex;
 }
 
 .product-item h3 {
-  margin-top: 10px;
-  font-size: 16px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.active{
+  background-color: #f3f1f0;
+  width: 200px;
+  height: 200px;
+}
+.product-button {
+  background-color: rgb(235, 247, 247);
+}
+.fetchedProductData{
+  display: flex;
 }
